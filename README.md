@@ -27,7 +27,7 @@ The customized message is likely as follow.
   </s:Body>
 </soap:Envelope>
 
-the response message is likely as follow.
+the response message is likely as follow, and also posted in file "response.txt".
 
 HTTP/1.1 200 OK
 Server: gSOAP/2.7
