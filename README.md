@@ -17,15 +17,15 @@ The customized message is likely as follow.
 </wsse:UsernameToken>   
  </wsse:Security>  
 </s:Header>  
-  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">"
-    <ContinuousMove xmlns="http://www.onvif.org/ver20/ptz/wsdl">"
-      <ProfileToken>profile_1_h264</ProfileToken>"
-      <Velocity>"
-        <PanTilt x="1" y="1" space="http://www.onvif.org/ver10/tptz/PanTiltSpaces/VelocityGenericSpace" xmlns="http://www.onvif.org/ver10/schema" />"
-      </Velocity>"
-      <Timeout>PT30S</Timeout>"
-    </ContinuousMove>"
-  </s:Body>"
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContinuousMove xmlns="http://www.onvif.org/ver20/ptz/wsdl">
+      <ProfileToken>profile_1_h264</ProfileToken>
+      <Velocity>
+        <PanTilt x="1" y="1" space="http://www.onvif.org/ver10/tptz/PanTiltSpaces/VelocityGenericSpace" xmlns="http://www.onvif.org/ver10/schema" />
+      </Velocity>
+      <Timeout>PT30S</Timeout>
+    </ContinuousMove>
+  </s:Body>
 </soap:Envelope>
 
 the response message is likely as follow.
