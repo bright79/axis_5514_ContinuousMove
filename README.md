@@ -1,6 +1,6 @@
 # ContinuousMove Vulnerability of Axis 5514 Camera 
 
-This page show the details of the vulnerability found in AXIS 5514 Camera, I hope AXIS can fix this bug as soon as possible, because some of such cameras are maybe still in use. 
+This page show the details of the vulnerability found in AXIS 5514 Camera, I hope AXIS can fix this bug as soon as possible, because some of such cameras are still in use. 
 
 Description
 
